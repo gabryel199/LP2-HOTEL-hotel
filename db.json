@@ -43,193 +43,99 @@
         "endereco_id": 6
       }
     ],
-    "hospedagem": [
-      {
-        "id": 1,
-        "status": "ativo",
-        "dataInicio": "10/10/2020",
-        "dataFim1": "20/10/2020",
-        "dataFim2": "10/10/2020",
-        "valorEstadia": 2000,
-        "statusValorEstadia": "pago",
-        "valorConsumo": 200,
-        "valorServicos": 200,
-        "valorEstadiaAdicional": 0,
-        "valorTotal": 2400,
-        "cliente_id": 1,
-        "funcionario_id": 1,
-        "hotel_id": 1,
-        "avaliacoesHospedagem_id": 1,
-        "quartoHospedagem_id": 1
-      },
-      {
-        "id": 2,
-        "status": "concluido",
-        "dataInicio": "10/10/2020",
-        "dataFim1": "20/10/2020",
-        "dataFim2": "10/10/2020",
-        "valorEstadia": 2000,
-        "statusValorEstadia": "pago",
-        "valorConsumo": 200,
-        "valorServicos": 200,
-        "valorEstadiaAdicional": 0,
-        "valorTotal": 2400,
-        "cliente_id": 2,
-        "funcionario_id": 1,
-        "hotel_id": 1,
-        "avaliacoesHospedagem_id": 2,
-        "quartoHospedagem_id": 2
-      },
-      {
-        "id": 3,
-        "status": "concluido",
-        "dataInicio": "10/10/2020",
-        "dataFim1": "20/10/2020",
-        "dataFim2": "10/10/2020",
-        "valorEstadia": 2000,
-        "statusValorEstadia": "pago",
-        "valorConsumo": 200,
-        "valorServicos": 200,
-        "valorEstadiaAdicional": 0,
-        "valorTotal": 2400,
-        "cliente_id": 3,
-        "funcionario_id": 1,
-        "hotel_id": 1,
-        "avaliacoesHospedagem_id": 3,
-        "quartoHospedagem_id": 3
-      },
-      {
-        "id": 4,
-        "status": "ativo",
-        "dataInicio": "10/10/2020",
-        "dataFim1": "20/10/2020",
-        "dataFim2": "10/10/2020",
-        "valorEstadia": 2000,
-        "statusValorEstadia": "pago",
-        "valorConsumo": 200,
-        "valorServicos": 200,
-        "valorEstadiaAdicional": 0,
-        "valorTotal": 2400,
-        "cliente_id": 4,
-        "funcionario_id": 1,
-        "hotel_id": 1,
-        "avaliacoesHospedagem_id": 4,
-        "quartoHospedagem_id": 4
-      }
-    ],
-    "reserva": [
-      {
-        "id": 1,
-        "status": "ativo pago",
-        "dataInicio": "10/10/2020",
-        "dataFim": "20/10/2020",
-        "valorResrva": 2000,
-        "cliente_id": 1,
-        "funcionario_id": 1,
-        "hotel_id": 1,
-        "hospedagem_id": "NULL"
-      },
-      {
-        "id": 2,
-        "status": "ativo nao pago",
-        "dataInicio": "10/10/2020",
-        "dataFim": "20/10/2020",
-        "valorResrva": 2000,
-        "cliente_id": 5,
-        "funcionario_id": 2,
-        "hotel_id": 1,
-        "hospedagem_id": "NULL"
-      },
-      {
-        "id": 3,
-        "status": "hospedagem",
-        "dataInicio": "10/10/2020",
-        "dataFim": "20/10/2020",
-        "valorResrva": 2000,
-        "cliente_id": 2,
-        "funcionario_id": "NULL",
-        "hotel_id": 1,
-        "hospedagem_id": 1
-      },
-      {
-        "id": 4,
-        "status": "cancelada",
-        "dataInicio": "10/10/2020",
-        "dataFim": "20/10/2020",
-        "valorResrva": 2000,
-        "cliente_id": 3,
-        "funcionario_id": "NULL",
-        "hotel_id": 1,
-        "hospedagem_id": "NULL"
-      },
-      {
-        "id": 5,
-        "status": "concluida",
-        "dataInicio": "10/10/2020",
-        "dataFim": "20/10/2020",
-        "valorResrva": 2000,
-        "cliente_id": 4,
-        "funcionario_id": "NULL",
-        "hotel_id": 1,
-        "hospedagem_id": 3
-      }
-    ],
-    "funcionario": [
-      {
-        "id": 1,
-        "nome": "funcionario 01-01",
-        "cpf": "12345778987",
-        "dataNacimento": "08/04/1988",
-        "email": "funcionario01-01@gmail.com",
-        "senha": "xxxxxxxx",
-        "salario": 3000,
-        "horaInicio": "07:00",
-        "horaFim": "15:00",
-        "endereco_id": 1,
-        "hotel_id": 1,
-        "cargo_id": 1
-      },
-      {
-        "id": 1,
-        "nome": "funcionario 01-02",
-        "cpf": "12345778987",
-        "dataNacimento": "08/04/1988",
-        "email": "funcionario01-02@gmail.com",
-        "senha": "xxxxxxxx",
-        "salario": 3000,
-        "horaInicio": "07:00",
-        "horaFim": "15:00",
-        "endereco_id": 2,
-        "hotel_id": 1,
-        "cargo_id": 1
-      },
-      {
-        "id": 1,
-        "nome": "funcionario 01-03",
-        "cpf": "12345778987",
-        "dataNacimento": "08/04/1988",
-        "email": "funcionario01-03@gmail.com",
-        "senha": "xxxxxxxx",
-        "salario": 3000,
-        "horaInicio": "07:00",
-        "horaFim": "15:00",
-        "endereco_id": 3,
-        "hotel_id": 1,
-        "cargo_id": 1
-      },
-      {
-        "id": 1,
-        "nome": "funcionario 01-04",
-        "cpf": "12345778987",
-        "dataNacimento": "08/04/1988",
-        "email": "funcionario01-04@gmail.com",
-        "senha": "xxxxxxxx",
-        "salario": 3000,
-        "horaInicio": "07:00",
-        "horaFim": "15:00",
-        "endereco_id": 4,
-        "hotel_id": 1,
-        "cargo_id": 1
-      }
-    ]
+  "servicoHospedagem": [
+    {
+      "id": 1,
+      "qtdVagas": 1,
+      "valorTotal": 100,
+      "servico_id": 1,
+      "Hospegaem_id": 1
+    },
+    {
+      "id": 2,
+      "qtdVagas": 2,
+      "valorTotal": 100,
+      "servico_id": 2,
+      "Hospegaem_id": 2
+    },
+    {
+      "id": 3,
+      "qtdVagas": 1,
+      "valorTotal": 100,
+      "servico_id": 3,
+      "Hospegaem_id": 3
+    },
+    {
+      "id": 4,
+      "qtdVagas": 1,
+      "valorTotal": 100,
+      "servico_id": 4,
+      "Hospegaem_id": 4
+    }
+  ],
+  "quartoHospedagem": [
+    {
+      "id": 1,
+      "hospedagem_id": 1,
+      "quarto_id": 1,
+      "avaliacaoQuarto_id": 1
+    },
+    {
+      "id": 2,
+      "hospedagem_id": 1,
+      "quarto_id": 2,
+      "avaliacaoQuarto_id": 2
+    },
+    {
+      "id": 3,
+      "hospedagem_id": 4,
+      "quarto_id": 3,
+      "avaliacaoQuarto_id": 3
+    },
+    {
+      "id": 4,
+      "hospedagem_id": 2,
+      "quarto_id": 3,
+      "avaliacaoQuarto_id": 4
+    },
+    {
+      "id": 5,
+      "hospedagem_id": 3,
+      "quarto_id": 4,
+      "avaliacaoQuarto_id": 5
+    },
+    {
+      "id": 6,
+      "hospedagem_id": 4,
+      "quarto_id": 4,
+      "avaliacaoQuarto_id": 6
+    }
+  ],
+  "tipoQuartoReserva": [
+    {
+      "id": 1,
+      "reserva_id": 1,
+      "tipoQuarto_id": 1
+    },
+    {
+      "id": 2,
+      "reserva_id": 2,
+      "tipoQuarto_id": 2
+    },
+    {
+      "id": 3,
+      "reserva_id": 3,
+      "tipoQuarto_id": 3
+    },
+    {
+      "id": 4,
+      "reserva_id": 4,
+      "tipoQuarto_id": 4
+    },
+    {
+      "id": 5,
+      "reserva_id": 5,
+      "tipoQuarto_id": 3
+    }
+  ]
 }
