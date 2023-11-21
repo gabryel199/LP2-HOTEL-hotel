@@ -18,7 +18,9 @@
         "cep": "00000-000",
         "cidade": "Juiz de Fora",
         "UF_id": 1,
-        "pais_id": 1
+        "pais_id": 1,
+        "cliente_id":1,
+        "funcionario_id":1
       },
       {
         "id": 2,
@@ -38,7 +40,9 @@
         "cep": "00000-000",
         "cidade": "Rio de Janeiro",
         "UF_id": 2,
-        "pais_id": 1
+        "pais_id": 1,
+        "cliente_id":2,
+        "funcionario_id":1
       },
       {
         "id": 3,
@@ -59,7 +63,9 @@
         "cep": "00000-000",
         "cidade": "João Pessoa",
         "UF_id": 3,
-        "pais_id": 1
+        "pais_id": 1,
+        "cliente_id":3,
+        "funcionario_id":1
       },
       {
         "id": 4,
@@ -80,7 +86,9 @@
         "cep": "00000-000",
         "cidade": "Buenos Aires",
         "UF_id": 4,
-        "pais_id": 2
+        "pais_id": 2,
+        "cliente_id":4,
+        "funcionario_id":1
       },
       {
         "id": 5,
@@ -100,7 +108,9 @@
         "cep": "00000-000",
         "cidade": "Juiz de Fora",
         "UF_id": 1,
-        "pais_id": 1
+        "pais_id": 1,
+        "cliente_id":1,
+        "funcionario_id":1
       },
       {
         "id": 6,
@@ -120,7 +130,9 @@
         "cep": "00000-000",
         "cidade": "Juiz de Fora",
         "UF_id": 1,
-        "pais_id": 1
+        "pais_id": 1,
+        "cliente_id":1,
+        "funcionario_id":1
       }
     ],
   "servicoHospedagem": [
