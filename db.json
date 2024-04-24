@@ -1,5 +1,5 @@
 {
-  "hotel": [
+  "hoteis": [
       {
         "id": 1,
         "titulo": "hotel 01",
@@ -123,7 +123,7 @@
         "pais_id": 1
       }
     ],
-  "servicoHospedagem": [
+  "servicoHospedagens": [
     {
       "id": 1,
       "qtdVagas": 1,
@@ -153,7 +153,7 @@
       "Hospegaem_id": 4
     }
   ],
-  "quartoHospedagem": [
+  "quartoHospedagens": [
     {
       "id": 1,
       "hospedagem_id": 1,
@@ -191,7 +191,7 @@
       "avaliacaoQuarto_id": 6
     }
   ],
-  "tipoQuartoReserva": [
+  "tipoQuartoReservas": [
     {
       "id": 1,
       "reserva_id": 1,
